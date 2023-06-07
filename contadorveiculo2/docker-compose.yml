@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  contadorveiculo2:
+    image: contadorveiculo2
+    build:
+      context: .
+      dockerfile: ./Dockerfile
